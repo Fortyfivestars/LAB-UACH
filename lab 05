@@ -1,0 +1,9 @@
+# Leer la cantidad de números N
+N = int(input())
+
+# Leer los números y almacenarlos en una lista
+numeros = list(map(int, input().split()))
+
+# Imprimir los números en el mismo orden en el que se leyeron
+for numero in numeros:
+    print(numero)
