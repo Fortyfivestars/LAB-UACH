@@ -1,0 +1,8 @@
+# Leer el número entero de entrada
+x = int(input())
+
+# Calcular el resultado de la ecuación f(x) = x^2
+resultado = x ** 2
+
+# Imprimir el resultado en el formato especificado
+print(resultado)
